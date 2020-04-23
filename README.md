@@ -61,4 +61,3 @@ Every device just runs one container to execute the components assigned to it.
 ## Placement
 The placement of the methods by considering the characteristics of application is as follows:
 https://github.com/SiNa88/mMAPO/blob/master/Placement.png
-# mMAPO

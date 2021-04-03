@@ -1,5 +1,6 @@
 This tutorial is just for devices running Debian based OS.
-
+## Inputs for Multi-objective optimization algorithm
+Two python codes are provided which prepare the JSON files for the resource configurations and component-based application requirements. These JSON files are as input arguements for NSGA-II algorithm executed in jMetal (a framework for multi-objective optimization with metaheuristics).
 
 ## Experiments
 

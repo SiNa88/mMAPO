@@ -68,4 +68,4 @@ Cost125KB = Computation + (Cost_Storage_RPi*F125KB * 3) + (Cost_Storage_GWRPi*F1
 Cost500KB = Computation + (Cost_Storage_RPi*F500KB * 3) + (Cost_Storage_GWRPi*F500KB) + (Cost_Storage_VM*F500KB * 3) + (CommTimeToVM500KB * Cost_BW_VM) 
 Cost1MB =   Computation + (Cost_Storage_RPi*F1MB * 3)   + (Cost_Storage_GWRPi*F1MB) + (Cost_Storage_VM*F1MB * 3) + (CommTimeToVM1MB   * Cost_BW_VM)
 
-print  Cost65KB, Cost125KB, Cost500KB, Cost1MB
+print  (Cost65KB, Cost125KB, Cost500KB, Cost1MB)

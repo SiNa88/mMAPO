@@ -79,4 +79,4 @@ Cost2000MI =   Computation + (Cost_Storage_RPi*F1MB * 3)  + (Cost_Storage_GWRPi*
 Computation = Component4000RPi + Component4000RPi + Component4000RPi +  (CompTime4000RPi*Cost_Processing_GWRPi) + Component4000VM + Component4000VM + Component4000VM 
 Cost4000MI =   Computation + (Cost_Storage_RPi*F1MB * 3)  + (Cost_Storage_GWRPi*F1MB )+ (Cost_Storage_VM*F1MB * 3) + (CommTimeToVM1MB   * Cost_BW_VM)
 
-print  Cost200MI, Cost500MI, Cost1000MI, Cost2000MI, Cost4000MI
+print  (Cost200MI, Cost500MI, Cost1000MI, Cost2000MI, Cost4000MI)

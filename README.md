@@ -4,7 +4,7 @@ Two python codes are provided which prepare the JSON files for the resource conf
 
 ## Experiments
 
-We had 6 experiments comparing mMAPO with FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
+We had 6 experiments comparing mMAPO with FSPP, EW-DP and GASS. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
 
 ## Testbed devices
 
@@ -57,11 +57,6 @@ Every device just runs one container to execute the components assigned to it.
     docker build -t mMAPO:latest .
 ## Run the Docker container
     docker run -it mMAPO:latest
-
-
-## Placement
-The placement of the methods by considering the characteristics of application is as follows:
-https://github.com/SiNa88/mMAPO/blob/master/Placement.png
 
 ## Cost calculations
 

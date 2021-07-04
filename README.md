@@ -1,10 +1,10 @@
 # mMAPO
 mobility-aware multi-objective IoT application placement
 
-## Paper Citation:
+## Paper Citation
 Dragi Kimovski, Narges Mehran, Christopher Kerth, and Radu Prodan. "Mobility-Aware IoT Applications Placement in the Cloud--Edge Continuum,"  IEEE Transactions on Services Computing (TSC), 2021. DOI: 10.1109/TSC.2021.3094322
 	
-## Contributors:
+## Contributors
 	1.Narges Mehran (PhD Student, Alpen-Adria Universitat Klagenfurt, Austria)
 	2.Dragi Kimovski (PostDoc, Alpen-Adria Universitat Klagenfurt, Austria)
 	Contact: narges(at)itec.aau.at ; dragi.kimovski(at)aau.at

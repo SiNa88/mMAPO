@@ -1,0 +1,19 @@
+#!/bin/bash
+
+START=$(date +%s)
+#date +"%s.%3N" && \
+#echo -------------------------------------------------------"
+#nc -q 0 -l 4000 > out.txt && \
+sysbench --test=cpu --num-threads=4 --cpu-max-prime=800 run
+sysbench --test=cpu --num-threads=4 --cpu-max-prime=400 run
+nc -n 192.168.137.200 4000 < ToBeSent125.txt
+#sysbench --test=cpu --num-threads=4 --cpu-max-prime=1500 run
+#sysbench --test=cpu --num-threads=4 --cpu-max-prime=3000 run
+nc -q 0 -l 4000 > out.txt
+sysbench --test=cpu --num-threads=4 --cpu-max-prime=400 run 
+sysbench --test=cpu --num-threads=4 --cpu-max-prime=400 run 
+nc -n 192.168.137.200 4000 < ToBeSent125.txt
+# echo ------------------------------------------------------"
+END=$(date +%s)
+DIFF=$(( $END - $START )) 
+echo "It took $DIFF seconds" && exit

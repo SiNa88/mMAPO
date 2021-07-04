@@ -1,3 +1,16 @@
+# mMAPO
+mobility-aware multi-objective IoT application placement
+
+## Paper Citation:
+Dragi Kimovski, Narges Mehran, Christopher Kerth, and Radu Prodan. "Mobility-Aware IoT Applications Placement in the Cloud--Edge Continuum,"  IEEE Transactions on Services Computing (TSC), 2021. DOI: 10.1109/TSC.2021.3094322
+	
+## Contributors:
+	1.Narges Mehran (PhD Student, Alpen-Adria Universitat Klagenfurt, Austria)
+	2.Dragi Kimovski (PostDoc, Alpen-Adria Universitat Klagenfurt, Austria)
+	Contact: narges(at)itec.aau.at ; dragi.kimovski(at)aau.at
+
+
+
 This tutorial is just for devices running Debian based OS.
 ## Inputs for Multi-objective optimization algorithm
 Two python codes are provided which prepare the JSON files for the resource configurations and component-based application requirements. These JSON files are as input arguements for NSGA-II algorithm executed in jMetal (a framework for multi-objective optimization with metaheuristics).
